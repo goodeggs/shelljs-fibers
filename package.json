@@ -1,0 +1,40 @@
+{
+  "name": "shelljs-fibers",
+  "version": "1.0.0",
+  "description": "shelljs with extensions for use with node-fibers",
+  "author": "Good Eggs <open-source@goodeggs.com>",
+  "contributors": [
+    "Bob <bob@zoller.us>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "shell shelljs fibers"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodeggs/Projects.git"
+  },
+  "homepage": "https://github.com/goodeggs/Projects",
+  "bugs": "https://github.com/goodeggs/Projects/issues",
+  "dependencies": {
+    "shelljs": "0.x.x"
+  },
+  "devDependencies": {
+    "chai": "1.x.x",
+    "coffee-script": ">=1.7.x",
+    "fibers": "1.x.x",
+    "fibrous": "0.x.x",
+    "mocha": "~1.x.x",
+    "mocha-fibers": "1.x.x"
+  },
+  "peerDependencies": {
+    "fibers": "*"
+  },
+  "scripts": {
+    "compile": "coffee --bare --compile --output lib/ src/",
+    "prepublish": "npm run compile",
+    "pretest": "npm run compile",
+    "test": "mocha"
+  }
+}
