@@ -13,23 +13,22 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/goodeggs/Projects.git"
+    "url": "git://github.com/goodeggs/shelljs-fibers.git"
   },
-  "homepage": "https://github.com/goodeggs/Projects",
-  "bugs": "https://github.com/goodeggs/Projects/issues",
-  "dependencies": {
-    "shelljs": "0.x.x"
-  },
+  "homepage": "https://github.com/goodeggs/shelljs-fibers",
+  "bugs": "https://github.com/goodeggs/shelljs-fibers/issues",
   "devDependencies": {
-    "chai": "1.x.x",
-    "coffee-script": ">=1.7.x",
-    "fibers": "1.x.x",
-    "fibrous": "0.x.x",
-    "mocha": "~1.x.x",
-    "mocha-fibers": "1.x.x"
+    "chai": "^2.2.0",
+    "coffee-script": "^1.9.1",
+    "fibers": "^1.0.5",
+    "fibrous": "^0.3.3",
+    "mocha": "^2.2.1",
+    "mocha-fibers": "^1.1.0",
+    "shelljs": "^0.4.0"
   },
   "peerDependencies": {
-    "fibers": "*"
+    "fibers": "*",
+    "shelljs": "*"
   },
   "scripts": {
     "compile": "coffee --bare --compile --output lib/ src/",
