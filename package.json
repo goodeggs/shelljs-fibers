@@ -1,6 +1,6 @@
 {
   "name": "shelljs-fibers",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "shelljs with extensions for use with node-fibers",
   "author": "Good Eggs <open-source@goodeggs.com>",
   "contributors": [
