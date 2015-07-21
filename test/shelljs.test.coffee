@@ -4,5 +4,5 @@ require './test_helper'
 describe 'shelljs-fibers', ->
 
   it 'exposes shelljs core', ->
-    expect(cp).to.be.defined
+    expect(cp).to.exist
 
