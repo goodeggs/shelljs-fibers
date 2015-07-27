@@ -1,7 +1,9 @@
 Future = require 'fibers/future'
 shelljs = require 'shelljs'
 
-module.exports = (command, options={}) ->
+module.exports = (command, options={}, cb=null) ->
+  [options, cb] = [{}, options] if !cb? and typeof options is 'function'
+
   future = new Future
   options.async = true
   shelljs.exec command, options, (code, output) ->
@@ -9,5 +11,6 @@ module.exports = (command, options={}) ->
       future.throw new Error("`#{command}` exited with #{code}")
     else
       future.return({code, output})
-  future.wait()
+
+  if cb? then future.resolve(cb) else future.wait()
 
