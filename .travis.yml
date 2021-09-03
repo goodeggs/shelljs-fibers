@@ -9,7 +9,7 @@ deploy:
   provider: npm
   email: open-source@goodeggs.com
   api_key:
-    secure: "UdM8eBfYfZ4zIkLvhrqKrmvE9eo4qw9mKCIsLupNiqUjbWQO9PsnX4gQFQBKzpyUuhkG9XO9ibH1OVlMsI908qLK8hgxoGHnF3chkiAD5bXdkWXp2al/TXLx4jAdEuT+t/mhiqvfts8maXGp5QUwAjkCgcwwZMx40HoQmgqI8yQ="
+    secure: "FGS1C3uodZiu9/ztjXQmyHQTnevtecNZNf8bb+UtQVVXAndoKKbTwvhGT8DzkNlRQjUTJPaiOOXgakka+FVteEYeRYi4D4RWFqLaNyrBMJmJmRz/S++sUVYk4hz/VKuiSgVvRBmPVKzJpXlyVuEqK+8Qv553p2ryMQkiLu6mwSywj9/TM9jclzILztDO7CD0B9H2VX3gTA4n7kkVeeOouTa7z5UVzUL827wr7YMZira3+7hq/f4RiRPpzGR19mbYu94rkvYB+LPt6mrEG7gzZH9hLt+LcF2yviXqIRUSD4GxM6AD3y/HVSgw6ofEhrZDI6a4vDAfkIhjCRM0hiQvAI3/3Y6+EtKzdVRa5oZ02xxsJytEi3sHRY3VXEG/FB0Duwn5G9hEnU8IfA/m5ahuFQ9oOGlMIR4RAmiHMvyjtV8GYAw3tkhhuAnhhGqeoL/inwZnn65wBTA5ndFRRb2SzfnrDgjm9Gh3QyfIUZSKuvxMDsFezyTXX/PbveKMKn8xLxOhGA6xwhBmGnzn45GlXkoCi76TDZYyBB4tEUmm/XztqZ/gNMO6hyp7HuEgkU1K6Sk54sPXrP2lnGfUR+DQ20Jpe7AxAMIlNiEwerv57ToK2FMs67cnMCx3rl4ksWkFEbBeOmnELVEYI6XnfpPMgBlrbxxVvX53ukDl8+hspmE="
   clean_up: false
   on:
     tags: true
